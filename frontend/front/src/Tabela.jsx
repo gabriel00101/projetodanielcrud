@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 function Tabela({vetor}){
     return(
         <table className='table'>
+=======
+function Tabela(){
+    return(
+        <table className="table">
+>>>>>>> 99bdb9decdc39d05a010fd20233aac6e6e5b9c3e
             <thead>
                 <tr>
                     <th>#</th>
@@ -8,6 +14,7 @@ function Tabela({vetor}){
                     <th>Marca</th>
                     <th>Selecionar</th>
                 </tr>
+<<<<<<< HEAD
             </thead>
             <tbody>
                     {
@@ -22,6 +29,17 @@ function Tabela({vetor}){
                     }
             </tbody>
             
+=======
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </thead>
+>>>>>>> 99bdb9decdc39d05a010fd20233aac6e6e5b9c3e
         </table>
     )
 }
